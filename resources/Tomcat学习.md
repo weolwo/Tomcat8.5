@@ -342,6 +342,7 @@ Mapper组件的功能就是将用户请求的URI定位到一个servlet ,它的�
 件与访问路径的映射关系，比如Host容器里配置的域名、Context 容器里的web应用路径，以及wrapper容器里servlet映射的路径，你可以
 想象这些配置信息就是一个多层次的Map。
 当一个请求到来时, Mapper组件通过解析请求URI里的域名和路径,再到自己保存的Map里去查找，就能定位到一个servlet。 请你注意,一个请求URL最后只会定位到一个wrapper容器,也就是一个servlet。
+![4rrtyshrrrrrr321](images/4rrtyshrrrrrr321.png)
 下面的示意图中， 就描述了当用户请求链接`http://localhost/user/findAll `之后， 是如何找到最终处理业务逻辑的servlet。
 
 ![Snipaste_2020-06-01_14-15-48](images/2020-06-01_14-15-48.png)
