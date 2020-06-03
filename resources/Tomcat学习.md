@@ -267,6 +267,7 @@ Container接口扩展了LifeCycle接口, LifeCycle接口用来统一管理各组
 4 )在Bootstrap的main方法中调用了load 方法，在其中又调用了catalina的load方法。
 5)在catalina的load方法中，需要进行一些初始化的工作，并需要构造Digester 对象，用于解析XML。
 6)然后在调用后续组件的初始化操作。。。
+![sssgg436i900](images/sssgg436i900.png)
 
 加载Tomcat的配置文件,初始化容器组件, 监听对应的端口号，准备接受客户端请求。
 
